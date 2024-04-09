@@ -6,6 +6,53 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Cabin", sans-serif; 
+}
 .nav{
     background-color: #255EE9;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#header-ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 0 1rem;
+}
+
+button{
+    margin: 0 none;
+    border-radius: 25%;
+    height: 2rem;
+}
+
+/* font color */
+
+.font-white{
+    color: white;
+}
+
+.font-blue{
+    color: #2F3A54;
+}
+
+/* bg-button color */
+
+.bg-button-blue{
+    color: #2F3A54;
+}
+
+.bg-button-grey{
+    color: #23272A;
 }
