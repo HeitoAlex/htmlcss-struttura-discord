@@ -9,10 +9,12 @@
 body{
     font-family: "Cabin", sans-serif; 
 }
+
 .nav{
     background-color: #255EE9;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -32,9 +34,16 @@ li{
 }
 
 button{
-    margin: 0 none;
-    border-radius: 25%;
-    height: 2rem;
+    border: 0 none;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+}
+
+#sub-nav{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
 /* font color */
