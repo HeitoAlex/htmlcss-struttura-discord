@@ -10,7 +10,7 @@ body{
     font-family: "Cabin", sans-serif; 
 }
 
-.nav{
+.head-nav{
     background-color: #255EE9;
     display: flex;
     justify-content: space-evenly;
@@ -89,6 +89,10 @@ h2{
     font-size: 45px;
 }
 
+.foot-nav{
+    display: flex;
+    justify-content: space-around;
+}
 
 /* font color */
 
