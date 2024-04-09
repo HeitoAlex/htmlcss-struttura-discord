@@ -31,7 +31,6 @@ ul{
 
 li{
     margin: 0 1rem;
-    color: white;
 }
 
 button{
@@ -44,21 +43,46 @@ button{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#intro{
+    width: 700px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+h1{
+    font-size: 45px;
+}
+
+#download{
+    margin-right: 1rem;
 }
 
 .span-right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    padding-right: 3rem;
 }
 
 .space-division{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
@@ -69,13 +93,17 @@ h2{
 /* font color */
 
 .font-blue{
-    color: #2F3A54;
+    color: #6A7FC7;
+}
+
+.font-white{
+    color: white;
 }
 
 /* bg-color */
 
 .bg-color-blue{
-    background-color: #2F3A54;
+    background-color: #6A7FC7;
     color: white;
 }
 
