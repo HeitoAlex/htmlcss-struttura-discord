@@ -31,6 +31,7 @@ ul{
 
 li{
     margin: 0 1rem;
+    color: white;
 }
 
 button{
@@ -46,22 +47,39 @@ button{
     height: 400px;
 }
 
-/* font color */
-
-.font-white{
-    color: white;
+.span-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-right: 3rem;
 }
+
+.space-division{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 45px;
+}
+
+
+/* font color */
 
 .font-blue{
     color: #2F3A54;
 }
 
-/* bg-button color */
+/* bg-color */
 
-.bg-button-blue{
-    color: #2F3A54;
+.bg-color-blue{
+    background-color: #2F3A54;
+    color: white;
 }
 
-.bg-button-grey{
-    color: #23272A;
+.bg-color-grey{
+    background-color: #23272A;
+    color: white;
 }
