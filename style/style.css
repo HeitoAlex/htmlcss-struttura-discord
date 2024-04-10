@@ -31,6 +31,7 @@ ul{
 
 li{
     margin: 0 1rem;
+    font-size: 12px;
 }
 
 button{
@@ -55,27 +56,27 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: center;
 }
 
 h1{
     font-size: 45px;
+    
+}
+
+p{
+    padding: 2rem 0 1rem;
 }
 
 #download{
     margin-right: 1rem;
 }
 
-.span-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 .space-division{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4rem;
 }
 
 .maindiv{
@@ -85,13 +86,47 @@ h1{
     justify-content: center;
 }
 
+.span-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.centered{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 h2{
     font-size: 45px;
+}
+
+.bottomdiv{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin: 2.5rem;
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .foot-nav{
     display: flex;
     justify-content: space-around;
+}
+
+.font-nav{
+    font-size: 12px;
 }
 
 /* font color */
