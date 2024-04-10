@@ -120,6 +120,14 @@ h3{
     background-size: contain;
 }
 
+.foot-div{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
 .foot-nav{
     display: flex;
     justify-content: space-around;
@@ -129,6 +137,35 @@ h3{
     font-size: 12px;
 }
 
+.foot-span{
+    max-width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h4{
+    font-size: 22px;
+}
+
+#flag{
+    width: 20px;
+}
+
+#lang-site{
+    font-size: 11px;
+    padding: 1rem 0;
+}
+
+i{
+    padding-right: 1rem;
+}
+
+hr{
+    max-width: 900px;
+    color: #6A7FC7;
+    margin: 1rem auto;
+}
 /* font color */
 
 .font-blue{
